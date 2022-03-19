@@ -12,6 +12,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(lib)
 add_subdirectory(test)
-add_subdirectory(../thirdparty/googletest googletest)
+add_subdirectory(thirdparty/googletest googletest)
 
 enable_testing()
