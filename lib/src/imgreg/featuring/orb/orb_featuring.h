@@ -38,13 +38,13 @@ class OrbFeaturing : public Featuring {
  private:
   cv::Ptr<cv::ORB> detector;
 
-  int                nFeatures{500};
-  float              scaleFactor{1.2f};
-  int                nLevels{8};
-  int                edgeThreshold{31};
-  int                firstLevel{0};
-  int                WTA_K{2};
-  cv::ORB::ScoreType scoreType{cv::ORB::HARRIS_SCORE};
-  int                patchSize{31};
-  int                fastThreshold{20};
+  int                nFeatures = 500;
+  float              scaleFactor = 1.2f;
+  int                nLevels = 8;
+  int                edgeThreshold = 31;
+  int                firstLevel = 0;
+  int                WTA_K = 2;
+  cv::ORB::ScoreType scoreType = cv::ORB::HARRIS_SCORE;
+  int                patchSize = 31;
+  int                fastThreshold = 20;
 };
