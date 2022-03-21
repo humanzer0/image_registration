@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.16)
 
 if (NOT BUILD_NUMBER)
     set(BUILD_NUMBER "")
