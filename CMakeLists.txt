@@ -6,7 +6,7 @@ else()
     set(BUILD_NUMBER ".${BUILD_NUMBER}")
 endif()
 
-project(StudProj VERSION 0.0${BUILD_NUMBER})
+project(image_registration VERSION 0.0${BUILD_NUMBER})
 
 set(CMAKE_CXX_STANDARD 17)
 
